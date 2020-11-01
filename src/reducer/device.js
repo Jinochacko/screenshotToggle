@@ -2,7 +2,7 @@ import {UPDATE_DEVICEINFO, UPDATE_DEVICEINFO_SUCCESS,UPDATE_DEVICEINFO_ERROR} fr
 
 const initialState = {
   info: {
-    data: [],
+    data: {},
     isUpdating: false,
   }
 };

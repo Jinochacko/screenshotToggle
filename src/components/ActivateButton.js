@@ -14,10 +14,10 @@ export default class ActivateButton extends React.Component{
     render(){
         const {label, icon} = this.props;
         return (
-                <TouchableOpacity style={{flexDirection: 'row'}} onPress={()=>this.updateInfo()}>
-                    <AnimateItem index={1} renderContent={<MaterialCommunityIcons name={icon} style={{fontSize: 20, color: '#fff'}} />} />
-                    <AnimateItem index={2} renderContent={<Text style={{color: '#fff', textAlign: 'center', flex: 2, marginLeft: 15}}>{label}</Text>} />
+                <TouchableOpacity style={styles.flexRow} onPress={()=>this.updateInfo()}>
+                    <AnimateItem index={1} renderContent={<MaterialCommunityIcons name={icon} style={styles.buttonIcon} />} />
+                    <AnimateItem index={2} renderContent={<Text style={styles.buttonText}>{label}</Text>} />
                 </TouchableOpacity>
         );
     };
-}
+} 
