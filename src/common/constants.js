@@ -1,0 +1,4 @@
+export const UPDATE_DEVICEINFO = 'UPDATE_DEVICEINFO';
+export const UPDATE_DEVICEINFO_SUCCESS = 'UPDATE_DEVICEINFO_SUCCESS';
+export const UPDATE_DEVICEINFO_ERROR = 'UPDATE_DEVICEINFO_ERROR';
+export const LOGO = require('../assets/rak.png');
